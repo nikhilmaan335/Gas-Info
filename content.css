@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    padding: 0px 30px;
+    color: #fff;
+    background-color: #050A30;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    width: 100%;
+}
+
+header .img {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    background-image: url(./assets/logo.png);
+    background-size: cover;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header span {
+    color: #ff5252;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+    height: 100%;
+    width: 114;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    font-size: 1.25rem;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 72px;
+    width: 680px;
+}
+
+.nav i {
+    margin-right: 8px;
+    font-size: 1.3rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+picture img {
+    height: 300px;
+    width: 100%;
+    border-bottom: 5px solid ghostwhite;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+#carousel {
+    position: absolute;
+    left: 1000px;
+    top: 225px;
+    padding: 20px;
+    margin-top: 10px;
+    height: 420px;
+    width: 450px;
+}
+
+.carousel img {
+    border: 8px solid #fff;
+    height: 380px;
+    width: 380px;
+}
+
+.c {
+    position: absolute;
+    top: -20px;
+}
+
+.content {
+    margin: 10px;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid orange;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 60%;
+    padding: 25px;
+}
+
+.content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content img{
+text-align: center;
+margin: 30px 80px;
+}
+
+.content h2 {
+    margin-bottom: 8px;
+    color: #cdd2ff;
+}
+
+.content p {
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0 10px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.content b {
+    text-decoration: dashed underline;
+}
+
+
+main .img {
+    margin: 25px 0pc;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+.img img {
+    height: 350px;
+    width: 60%;
+}
